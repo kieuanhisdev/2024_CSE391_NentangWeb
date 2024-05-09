@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+ul li {
+
+    list-style: none;
+}
+
+strong {
+    color: #3CD291;
+}
+
+header {
+    /* background-image: url(/pj1/images/places/ocean.jpg); */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 10px;
+}
+#page-logo a {
+    color: #F4F3A3;
+    font-size: 35px;
+    font-family: Oleo Script;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li {
+    margin: 15px;
+    list-style: none;
+    
+}
+
+nav ul li a {
+    color: gold;
+}
+
+
+#hero {
+    margin-top:  -50px;
+    background-image: url(/pj1/images/places/ocean.jpg) ;
+    /* width: 1140px; */
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  /* align-items: center; */
+}
+
+#hero-content {
+    margin-top: -80px;
+    align-self: center;
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    background-color: rgba(50, 50, 50, 0.7);
+    border-radius: 12px;
+}
+
+#hero-content h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+#hero-content p {
+    text-transform: uppercase;
+    color: #ddd;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#hero-content a {
+    margin-top: 20px;
+    background-color: gold;
+    padding: 10px;
+}
+
+
+#highlights {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    /* width: 1140px; */
+    background-color: #CEF5F2;
+}
+
+#highlights h2 {
+    margin-bottom: 20px;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+
+#destinations img {
+    width: 550px;
+    height: 140px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#highlights ul li p {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #858A8B;
+}
+
+footer {
+    background-color: black;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    padding: 15px 20px;
+}
+
+footer ul li img {
+    width: 70px;
+}

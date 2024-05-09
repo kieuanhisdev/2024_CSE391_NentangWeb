@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 5px 5px 20px  rgb(201, 193, 193);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.Navigate {
+    display: flex;
+    text-align: center;
+}
+
+.Navigate a {
+    padding-right: 26px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    align-self: center;
+}
+
+.Navigate a:nth-child(2){
+    color: #858A8B;
+}
+
+.Navigate .nav-logo {
+    font-size: 30px;
+}
+
+nav form {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+form .inputx{
+    width: 240px;
+    height: 40px;
+    /* text-align: center; */
+    padding: 10px;
+    border: 1px solid #dddd;
+}
+
+form .inpbutt {
+    width: 50px;
+    height: 40px;
+    color: forestgreen;
+    border: 1px solid forestgreen;
+}
+
+.inpbutt , .inputx {
+    border-radius: 7px;
+}
