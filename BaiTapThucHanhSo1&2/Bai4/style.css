@@ -1,8 +1,43 @@
 *{
     box-sizing: border-box;
+    padding: 0px;
+    margin: opx;
+
 }
 
 
-header {
-    background-image: url(/pj1/images/places/ocean.jpg);
+.row {
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gennerLB{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.container {
+    width: 1000px;
+    border: 10px solid #ddd;
+}
+
+.contai {
+    width: 940px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.title {
+    margin-top: 20px;
+    border-bottom: 3px solid gray;
+    width: 960px;
+    margin-left: -5px;
+}
+
+label, input, select, textarea {
+    margin: 4px 0px;
+    font-weight: 600;
+    color: black;
 }
