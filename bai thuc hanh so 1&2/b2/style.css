@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: red;
+    font-weight: 600;
+    /* margin-left: -20px; */
+}
+
+h2 i {
+    margin-right: -10px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li i {
+    padding-right: 10px;
+    color: red;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.course {
+    /* margin-left: 40px; */
+    /* width: 380px; */
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.course .paragraph {
+    font-size: 16px;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+img {
+    width: 416px;
+    height: 160px;
+    
+}
