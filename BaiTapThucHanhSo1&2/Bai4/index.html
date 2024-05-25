@@ -13,11 +13,11 @@
 <body>
     <main>
         <div class="container">
-            <div class="title">
-                <h2>Basic Infor</h2>
-            </div>
-            <div class="contai">
-                <form action="">
+            <form method="get" id="demoForm" action="">
+                <div class="title">
+                    <h2>Basic Infor</h2>
+                </div>
+                <div class="contai">
                     <div class="row">
                         <label for="" class="col-3">employee ID</label>
                         <label for="" class="col-9">9</label>
@@ -50,26 +50,22 @@
                         <input type="text" class="col-9" name="Suffix" id="Suffix" value="Ms.">
                         <label for="BirthDate" class="col-3">BirthDate</label>
                         <input type="datetime" name="BirthDate" id="BirthDate" class="col-9"
-                        value="1969-07-02 00:00:00">
+                            value="1969-07-02 00:00:00">
                         <label for="HireDate" class="col-3">HireDate</label>
-                        <input type="datetime" name="HireDate" id="HireDate" class="col-9"
-                        value="1994-11-15 00:00:00">
+                        <input type="datetime" name="HireDate" id="HireDate" class="col-9" value="1994-11-15 00:00:00">
                         <label for="SNN" class="col-3">SNN # (if applicable)</label>
                         <input type="text" class="col-9" name="SNN" id="SNN" placeholder="">
-                        <label for="SNN" class="col-3">Reports To</label>
-                        <select id="SNN" name="SNN" class="col-3">
+                        <label for="SNNn" class="col-3">Reports To</label>
+                        <select id="SNNn" name="SNNn" class="col-3">
                             <option value="volvo">Buchanan</option>
                         </select>
                         <div class="col-6"></div>
-
-                </form>
-
-            </div>
-            <div class="title">
-                <h2>Contact Infor</h2>
-            </div>
-            <div class="contai">
-                <form action="">
+                    </div>
+                </div>
+                <div class="title">
+                    <h2>Contact Infor</h2>
+                </div>
+                <div class="contai">
                     <div class="row">
                         <label for="Email" class="col-3">Email</label>
                         <input type="email" class="col-9" name="Email" id="Email" placeholder="name@example.com">
@@ -90,14 +86,12 @@
                         <input type="text" class="col-9" name="Phone" id="Phone" value="(234)234-2342">
                         <label for="Photo" class="col-3">Photo</label>
                         <input type="text" class="col-9" name="Photo" id="Photo" value="EmpID9.bmp">
-                </form>
-
-            </div>
-            <div class="title">
-                <h2>Optional Infor</h2>
-            </div>
-            <div class="contai">
-                <form action="">
+                    </div>
+                </div>
+                <div class="title">
+                    <h2>Optional Infor</h2>
+                </div>
+                <div class="contai">
                     <div class="row">
                         <label for="Notes" class="col-3">Notes</label>
                         <textarea name="Notes" id="Notes" class="col-9" rows="5"></textarea>
@@ -119,11 +113,21 @@
                             <br>
                             <input type="text" class="col-12" name="hummna" id="hummna">
                         </div>
-                </form>
-                
-            </div>
+                    </div>
+                </div>
+                <div class="form-footer">
+                    <nav>
+                        <i class="bi bi-caret-left-square-fill"></i>
+                        <i class="bi bi-caret-right-square-fill"></i>
+                    </nav>
+                    <div>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Cancel</button>
+                    </div>
+                </div>
+                <span>*required</span>
 
-            
+            </form>
         </div>
     </main>
 </body>

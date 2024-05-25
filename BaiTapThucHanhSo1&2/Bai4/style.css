@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0px;
-    margin: opx;
+    margin: 0px;
 
 }
 
@@ -39,5 +39,22 @@
 label, input, select, textarea {
     margin: 4px 0px;
     font-weight: 600;
-    color: black;
+    /* color: black; */
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid gray;
+    padding-top: 20px;
+
+}
+
+.form-footer button {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 7px;
 }
