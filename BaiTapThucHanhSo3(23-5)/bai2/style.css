@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.row {
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gennerLB{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.container {
+    width: 1000px;
+    border: 10px solid #ddd;
+}
+
+.contai {
+    width: 940px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.title {
+    margin-top: 20px;
+    border-bottom: 3px solid gray;
+    width: 960px;
+    margin-left: -5px;
+}
+
+label, input, select, textarea {
+    margin: 4px 0px;
+    font-weight: 600;
+    /* color: black; */
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid gray;
+    padding-top: 20px;
+
+}
+
+.form-footer button {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 7px;
+}
+
+label.error {
+    color: red; /* Thay đổi màu sắc của thông báo lỗi thành màu xanh */
+    font-size: 14px; /* Tùy chỉnh kích thước font */
+    margin-top: 5px; /* Khoảng cách phía trên */
+}
