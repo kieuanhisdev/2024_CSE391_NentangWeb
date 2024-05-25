@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(function(){
+            $("button").click(function(){
+                let itemCount = $("#list li").length;
+                // let txt2 = $("<li></li>").text("iteam")
+                let txt2 = $("<li></li>").text("item " + (itemCount + 1));
+                $("#list").append(txt2)
+            })
+        })
+    </script>
+</head>
+<body>
+    <ul id="list">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+       </ul>
+    <button type="button">Add</button>
+</body>
+</html>
