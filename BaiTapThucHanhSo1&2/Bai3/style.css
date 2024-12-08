@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+th, table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+
+.q {
+    font-weight: normal;
+}
+
+table {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
